@@ -10,7 +10,6 @@ from dotenv import load_dotenv
 import re
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
-import numpy as np
 
 try:
 	start_time = time.time()
